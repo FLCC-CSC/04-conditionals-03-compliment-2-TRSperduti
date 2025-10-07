@@ -1,8 +1,8 @@
 # FILE NAME - compliment_02.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Taylor Sperduti
+# DATE: 10/7/25
+# BRIEF DESCRIPTION: This will ask if you want a compliment and output something for all answers 
 
 
 
@@ -16,7 +16,22 @@
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
 
+def main():
+      give_compliment()
 
+def give_compliment():
+
+ compliment = input("Would you like a compliment?: ")
+
+ if "yes" == compliment:
+       print("You have wonderful eyes.")
+ else:
+       print("No compliment for you!")
+
+ print("Thank you for playing.")
+
+
+main()
 
 
 
@@ -71,7 +86,7 @@ Thank you for playing.
 
 1. Did you struggle with this lab (YES/NO)?
 
-
+NO
 
 
 
